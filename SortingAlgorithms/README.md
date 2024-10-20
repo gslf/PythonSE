@@ -2,5 +2,5 @@
 **Software Engineering** in Python
 
 ## SORTING ALGORITMS
-- [BubbleSort](/OrderingAlgorithms/BubbleSort/README.md)
+- [BubbleSort](/SortingAlgorithms/BubbleSort/README.md)
 
