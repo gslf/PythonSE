@@ -1,5 +1,5 @@
 # PythonSE
-Algorithm and Data Structures in python
+**Software Engineering** in Python
 
 This is a practical guide to mastering algorithms, data structures, and problem-solving techniques with Python. This is not a theoretical collection, but rather a hands-on approach to solving real-world problems, offering you practical implementations that emphasize **efficient**, **elegant**, and **philosophy-driven** code code.
 
@@ -15,6 +15,8 @@ In this repository, you'll discover:
 
 ### Ordering Algorithms
 Practical implementations of sorting algorithms, to have tall the instruments to choose the right approach based on the problem at hand. Learn to write code that handles data efficiently, from small to large datasets, using algorithms like Quick Sort, Merge Sort, and Heap Sort.
+
+- [BubbleSort](/OrderingALgorithms/BubbleSort/README.md)
 
 ### Data Structures
 How to implement and optimize essential data structures, such as Linked Lists, Stacks, Queues, and Binary Trees. This section offers practical code that demonstrates how these structures are used in real applications, focusing on their impact on performance and code clarity.
