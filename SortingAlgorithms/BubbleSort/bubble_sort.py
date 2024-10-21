@@ -20,6 +20,6 @@ def bubble_sort(arr):
     return arr
 
 # Test
-my_list = [64, 34, 25, 12, 22, 11, 90]
+my_list = [64, 5, 25, 12, 22, 11, 90]
 sorted_list = bubble_sort(my_list)
 print("Sorted array:", sorted_list)

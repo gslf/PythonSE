@@ -4,7 +4,7 @@ Bubble Sort is a sorting algorithm that operates with a fundamentally **human ap
 
 Here is a visual representation of how the Bubble Sort algorithm works, step-by-step:
 
-![Bubble Sort algorithm - visual representation](/OrderingAlgorithms/BubbleSort/res/bubble_sort_visualization.png)
+![Bubble Sort algorithm - visual representation](/SortingAlgorithms/BubbleSort/res/bubble_sort_visualization.png)
 
 This is the python implementation of Bubble Sort Algorithm
 
