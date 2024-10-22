@@ -13,6 +13,7 @@ Quick Sort is a eddicient sorting algorithm that use the **divide-and-conquer** 
 - **Recursive Sorting:** After partitioning, Quick Sort is recursively applied to both the left and right sublists. This process continues until all sublists contain only one element, at which point the list is fully sorted.
 
 
+## Implementation
 This is a simple python implementation of Quick Sort Algorithm:
 
 ```python

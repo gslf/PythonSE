@@ -18,6 +18,7 @@ Practical implementations of sorting algorithms, to have tall the instruments to
 
 - [BubbleSort](/SortingAlgorithms/BubbleSort/README.md)
 - [QuickSort](/SortingAlgorithms/QuickSort/README.md)
+- [MergeSort](/SortingAlgorithms/mergeSort/README.md)
 
 ### Data Structures
 How to implement and optimize essential data structures, such as Linked Lists, Stacks, Queues, and Binary Trees. This section offers practical code that demonstrates how these structures are used in real applications, focusing on their impact on performance and code clarity.

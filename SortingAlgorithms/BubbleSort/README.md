@@ -6,6 +6,7 @@ Here is a visual representation of how the Bubble Sort algorithm works, step-by-
 
 ![Bubble Sort algorithm - visual representation](/SortingAlgorithms/BubbleSort/res/bubble_sort_visualization.png)
 
+## Implementation
 This is the python implementation of Bubble Sort Algorithm
 
 ```python
