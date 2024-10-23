@@ -3,7 +3,7 @@
 Merge Sort is an efficient sorting algorithm that utilizes the divide-and-conquer technique. 
 Below is a graphical representation of how it works:
 
-#TODO
+![Merge Sort algorithm - visual representation](/SortingAlgorithms/MergeSort/res/merge_sort_visualization.png)
 
 ## How Merge Sort Works
 - **Dividing the List**: Merge Sort begins by dividing the unsorted list into two approximately equal halves. This process is repeated recursively until each sublist contains a single element (since a list of one element is inherently sorted).
