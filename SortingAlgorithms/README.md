@@ -8,3 +8,5 @@
 - [InsertionSort](/SortingAlgorithms/InsertionSort/README.md)
 - [SelectionSort](/SortingAlgorithms/SelectionSort/README.md)
 - [HeapSort](/SortingAlgorithms/HeapSort/README.md)
+- [RadixSort](/SortingAlgorithms/RadixSort/README.md)
+- [BucketSort](/SortingAlgorithms/BucketSort/README.md)
