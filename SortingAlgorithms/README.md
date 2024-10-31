@@ -10,3 +10,4 @@
 - [HeapSort](/SortingAlgorithms/HeapSort/README.md)
 - [RadixSort](/SortingAlgorithms/RadixSort/README.md)
 - [BucketSort](/SortingAlgorithms/BucketSort/README.md)
+- [CountingSort](/SortingAlgorithms/CountingSort/README.md)
