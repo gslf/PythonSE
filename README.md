@@ -29,6 +29,9 @@ Practical implementations of sorting algorithms, to have tall the instruments to
 ### Data Structures
 How to implement and optimize essential data structures, such as Linked Lists, Stacks, Queues, and Binary Trees. This section offers practical code that demonstrates how these structures are used in real applications, focusing on their impact on performance and code clarity.
 
+- [LinkedList](/DataStructures/LinkedList/README.md)
+- [Stack](/DataStructures/Stack/README.md)
+
 ### Graph Algorithms
 Graph theory with real-world applications in network analysis, pathfinding, and resource optimization. This section provides hands-on examples of graph traversal, shortest path algorithms, and techniques for working with complex graphs in Python.
 
