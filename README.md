@@ -32,6 +32,9 @@ How to implement and optimize essential data structures, such as Linked Lists, S
 - [LinkedList](/DataStructures/LinkedList/README.md)
 - [Stack](/DataStructures/Stack/README.md)
 - [Queue](/DataStructures/Queue/README.md)
+- [HashTable](/DataStructures/HashTable/README.md)
+- [BinaryTree](/DataStructures/BinaryTree/README.md)
+- [Heap](/DataStructures/Heap/README.md)
 
 ### Graph Algorithms
 Graph theory with real-world applications in network analysis, pathfinding, and resource optimization. This section provides hands-on examples of graph traversal, shortest path algorithms, and techniques for working with complex graphs in Python.
