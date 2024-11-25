@@ -8,6 +8,8 @@ A Red-Black Tree is a self-balancing binary search tree in which each node conta
 4. Every path from a node to its descendant NULL pointers contains the same number of black nodes (black height).
 5. The longest path from root to a leaf is at most twice the shortest path.
 
+![Red Black Tree - visual representation](/DataStructures/RedBlackTree/res/red-black-visualization.png)
+
 
 ## Red-Black Trees vs AVL Trees
 

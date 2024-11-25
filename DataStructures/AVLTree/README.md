@@ -9,7 +9,9 @@ To grasp the AVL tree intuitively, let’s visualize its balancing process:
     - **Left Rotation (LL):** When the right subtree is too tall, the left rotation shifts nodes leftward.
     - **Left-Right (LR) and Right-Left (RL):** These occur when the tree requires two rotations to resolve imbalance.
 
-The keypoint of AVL Trees is the **balance**. An unbalanced binary search tree deteriorates into a linked list, losing its efficiency.
+The keypoint of AVL Trees is the **balance**. An unbalanced binary search tree deteriorates into a linked list, losing its efficiency. 
+
+![AVL Tree - visual representation](/DataStructures/AVLTree/res/avl-tree-visualization.png)
 
 ## Implementation
 
