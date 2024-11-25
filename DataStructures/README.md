@@ -8,3 +8,5 @@
 - [HashTable](/DataStructures/HashTable/README.md)
 - [BinaryTree](/DataStructures/BinaryTree/README.md)
 - [Heap](/DataStructures/Heap/README.md)
+- [AVLTree](/DataStructures/AVLTree/README.md)
+- [RedBlackTree](/DataStructures/RedBlackTree/README.md)
