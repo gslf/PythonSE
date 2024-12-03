@@ -38,14 +38,17 @@ How to implement and optimize essential data structures, such as Linked Lists, S
 - [AVLTree](/DataStructures/AVLTree/README.md)
 - [RedBlackTree](/DataStructures/RedBlackTree/README.md)
 
+### Dynamic Programming
+Dynamic programming through real examples that show how to optimize recursive algorithms and handle large data sets efficiently. A guide to solve in style combinatorial optimization problems or breaking down complex tasks into simpler ones, for writing dynamic, scalable code.
+
+- [0/1 Knapsack Problem](/DynamicProgramming/KnapsackProblem/README.md)
+
+
 ### Graph Algorithms
 Graph theory with real-world applications in network analysis, pathfinding, and resource optimization. This section provides hands-on examples of graph traversal, shortest path algorithms, and techniques for working with complex graphs in Python.
 
 ### Philosophical Problem-Solving
 Advanced problem-solving techniques, providing practical solutions for common challenges. Learn how to apply algorithms effectively to real-world problems, ensuring that your code is both performant and maintainable.
-
-### Dynamic Programming
-Dynamic programming through real examples that show how to optimize recursive algorithms and handle large data sets efficiently. A guide to solve in style combinatorial optimization problems or breaking down complex tasks into simpler ones, for writing dynamic, scalable code.
 
 ---
 
