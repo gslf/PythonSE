@@ -25,6 +25,9 @@ Practical implementations of sorting algorithms, to have tall the instruments to
 - [RadixSort](/SortingAlgorithms/RadixSort/README.md)
 - [BucketSort](/SortingAlgorithms/BucketSort/README.md)
 - [CountingSort](/SortingAlgorithms/CountingSort/README.md)
+- [TimSort] (/SortingALgorithms/TimSort/README.md)
+- ShellSort // TODO
+- ExternalSort // TODO
 
 ### Data Structures
 How to implement and optimize essential data structures, such as Linked Lists, Stacks, Queues, and Binary Trees. This section offers practical code that demonstrates how these structures are used in real applications, focusing on their impact on performance and code clarity.
@@ -37,18 +40,37 @@ How to implement and optimize essential data structures, such as Linked Lists, S
 - [Heap](/DataStructures/Heap/README.md)
 - [AVLTree](/DataStructures/AVLTree/README.md)
 - [RedBlackTree](/DataStructures/RedBlackTree/README.md)
+- SegmentTree // TODO
+- FenwickTree // TODO
+- BloomFilter // TODO
+- Sparse Table // TODO
 
 ### Dynamic Programming
 Dynamic programming through real examples that show how to optimize recursive algorithms and handle large data sets efficiently. A guide to solve in style combinatorial optimization problems or breaking down complex tasks into simpler ones, for writing dynamic, scalable code.
 
 - [0/1 Knapsack Problem](/DynamicProgramming/KnapsackProblem/README.md)
+- Shortest Path in grid // TODO
+- String alignment (Smith-Waterman) // TODO
+- Word Break Problem // TODO
+- Edit Distance (Levenshtein) // TODO
+- Matrix Chain Multiplication // TODO
+- Triangle Minimum Path Sum // TODO
+- Longest Common Subsequence - LCS // TODO
+- Interval Scheduling // TODO
 
-
-### Graph Algorithms
+### Genetic Algorithms
 Graph theory with real-world applications in network analysis, pathfinding, and resource optimization. This section provides hands-on examples of graph traversal, shortest path algorithms, and techniques for working with complex graphs in Python.
 
-### Philosophical Problem-Solving
-Advanced problem-solving techniques, providing practical solutions for common challenges. Learn how to apply algorithms effectively to real-world problems, ensuring that your code is both performant and maintainable.
+- Basic Genetic ALgorithm // TODO
+- NSGA-II // TODO
+- Differential Evolution // TODO
+- Island Model GA // TODO
+- Memetic Algorithm // TODO
+- Steady-State GA // TODO
+- Constraing-Handling GA // TODO
+
+
+
 
 ---
 
