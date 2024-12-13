@@ -1,61 +1,66 @@
+from typing import Any, Optional
+
 class CircularNode:
     """
-    A class representing a Node in a circular linked list.
-    Attributes:
-        data (any): The data stored in the node.
-        next_node (CircularNode or None): The reference to the next node in the list.
-    """
-    def __init__(self, data):
-        self.data = data
-        self.next_node = None
+    Represents a node in a circular linked list.
 
-    def __repr__(self):
+    Attributes:
+        data (Any): The data stored in the node.
+        next_node (Optional[CircularNode]): Reference to the next node in the list.
+    """
+    def __init__(self, data: Any):
+        self.data: Any = data
+        self.next_node: Optional[CircularNode] = None
+
+    def __repr__(self) -> str:
         return f"CircularNode({self.data})"
 
 
 class CircularLinkedList:
     """
-    A class representing a circular linked list.
-    Attributes:
-        head (CircularNode or None): The first node in the circular linked list.
-    """
-    def __init__(self):
-        self.head = None
+    Represents a circular linked list.
 
-    def append(self, data):
+    Attributes:
+        head (Optional[CircularNode]): The first node in the circular linked list, or None if the list is empty.
+    """
+    def __init__(self) -> None:
+        self.head: Optional[CircularNode] = None
+
+    def append(self, data: Any) -> None:
         """
-        Append a new node with the provided data to the circular linked list.
+        Appends a new node with the provided data to the circular linked list.
+
         Args:
-            data (any): The data to be added to the list.
+            data (Any): The data to be added to the list.
         """
         new_node = CircularNode(data)
-        if not self.head:
+        if self.head is None:
+            # If the list is empty, the new node points to itself.
             self.head = new_node
             self.head.next_node = self.head
-            return
+        else:
+            # Traverse to the last node and link it to the new node.
+            current = self.head
+            while current.next_node != self.head:
+                current = current.next_node
+            current.next_node = new_node
+            new_node.next_node = self.head
 
-        current = self.head
-        while current.next_node != self.head:
-            current = current.next_node
-        current.next_node = new_node
-        new_node.next_node = self.head
+    def __repr__(self) -> str:
+        """
+        Returns a string representation of the circular linked list.
+        """
+        if not self.head:
+            return "Empty List"
 
-    def __repr__(self):
-        """
-        Return a string representation of the circular linked list.
-        """
         nodes = []
         current = self.head
-        if not current:
-            return "None"
-
         while True:
             nodes.append(repr(current))
             current = current.next_node
             if current == self.head:
                 break
         return " -> ".join(nodes) + " -> Head"
-
 
 # Example usage
 if __name__ == "__main__":

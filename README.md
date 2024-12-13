@@ -69,9 +69,6 @@ Graph theory with real-world applications in network analysis, pathfinding, and 
 - Steady-State GA // TODO
 - Constraing-Handling GA // TODO
 
-
-
-
 ---
 
 This repository is designed for developers who are looking to sharpen their coding skills with practical, real-world examples. It’s a collection of solutions that will help you not only write better Python code but also understand the philosophical underpinnings of good software engineering practices.
