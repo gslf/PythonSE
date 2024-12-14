@@ -26,7 +26,7 @@ Practical implementations of sorting algorithms, to have tall the instruments to
 - [BucketSort](/SortingAlgorithms/BucketSort/README.md)
 - [CountingSort](/SortingAlgorithms/CountingSort/README.md)
 - [TimSort] (/SortingALgorithms/TimSort/README.md)
-- ShellSort // TODO
+- [ShellSort] (/SortingAlgorithms/ShellSort/README.md)
 - ExternalSort // TODO
 
 ### Data Structures
