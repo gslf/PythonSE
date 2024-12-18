@@ -13,5 +13,5 @@
 - [CountingSort](/SortingAlgorithms/CountingSort/README.md)
 - [TimSort] (/SortingALgorithms/TimSort/README.md)
 - [ShellSort] (/SortingAlgorithms/ShellSort/README.md)
-- ExternalSort // TODO
+- [ExternalSort] (/SortingAlgorithms/ExternalSort/README.md)
 
