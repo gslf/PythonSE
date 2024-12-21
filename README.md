@@ -41,7 +41,7 @@ How to implement and optimize essential data structures, such as Linked Lists, S
 - [AVLTree](/DataStructures/AVLTree/README.md)
 - [RedBlackTree](/DataStructures/RedBlackTree/README.md)
 - [SegmentTree] (/DataStructures/SegmentTree/README.md)
-- FenwickTree // TODO
+- [FenwickTree] (/DataStructures/FenwickTree/README.md)
 - BloomFilter // TODO
 - Sparse Table // TODO
 
