@@ -10,7 +10,7 @@
 - [Heap](/DataStructures/Heap/README.md)
 - [AVLTree](/DataStructures/AVLTree/README.md)
 - [RedBlackTree](/DataStructures/RedBlackTree/README.md)
-- [SegmentTree] (/DataStructures/SegmentTree/README.md)
-- [FenwickTree] (/DataStructures/FenwickTree/README.md)
-- BloomFilter // TODO
+- [SegmentTree](/DataStructures/SegmentTree/README.md)
+- [FenwickTree](/DataStructures/FenwickTree/README.md)
+- [BloomFilter](/DataStructures/BloomFilter/README.md)
 - Sparse Table // TODO

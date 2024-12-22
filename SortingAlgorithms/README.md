@@ -11,7 +11,7 @@
 - [RadixSort](/SortingAlgorithms/RadixSort/README.md)
 - [BucketSort](/SortingAlgorithms/BucketSort/README.md)
 - [CountingSort](/SortingAlgorithms/CountingSort/README.md)
-- [TimSort] (/SortingALgorithms/TimSort/README.md)
-- [ShellSort] (/SortingAlgorithms/ShellSort/README.md)
-- [ExternalSort] (/SortingAlgorithms/ExternalSort/README.md)
+- [TimSort](/SortingALgorithms/TimSort/README.md)
+- [ShellSort](/SortingAlgorithms/ShellSort/README.md)
+- [ExternalSort](/SortingAlgorithms/ExternalSort/README.md)
 
