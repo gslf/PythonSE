@@ -97,7 +97,7 @@ When we check "test@mail.com", it happens to hash to positions that were set by 
 
 ## Implementation
 ```python
-from typing import List, Any
+from typing import Any
 import math
 
 class BloomFilter:

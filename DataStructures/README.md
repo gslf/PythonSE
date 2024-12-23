@@ -13,4 +13,4 @@
 - [SegmentTree](/DataStructures/SegmentTree/README.md)
 - [FenwickTree](/DataStructures/FenwickTree/README.md)
 - [BloomFilter](/DataStructures/BloomFilter/README.md)
-- Sparse Table // TODO
+- [SparseTable](/DataStructures/SparseTable/README.md)

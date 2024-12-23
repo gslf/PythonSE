@@ -43,7 +43,7 @@ How to implement and optimize essential data structures, such as Linked Lists, S
 - [SegmentTree](/DataStructures/SegmentTree/README.md)
 - [FenwickTree](/DataStructures/FenwickTree/README.md)
 - [BloomFilter](/DataStructures/BloomFilter/README.md)
-- Sparse Table // TODO
+- [SparseTable](/DataStructures/SparseTable/README.md)
 
 ### Dynamic Programming
 Dynamic programming through real examples that show how to optimize recursive algorithms and handle large data sets efficiently. A guide to solve in style combinatorial optimization problems or breaking down complex tasks into simpler ones, for writing dynamic, scalable code.

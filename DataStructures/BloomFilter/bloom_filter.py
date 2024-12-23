@@ -1,4 +1,4 @@
-from typing import List, Any
+from typing import Any
 import math
 
 class BloomFilter:
