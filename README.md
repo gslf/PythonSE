@@ -49,7 +49,7 @@ How to implement and optimize essential data structures, such as Linked Lists, S
 Dynamic programming through real examples that show how to optimize recursive algorithms and handle large data sets efficiently. A guide to solve in style combinatorial optimization problems or breaking down complex tasks into simpler ones, for writing dynamic, scalable code.
 
 - [0/1 Knapsack Problem](/DynamicProgramming/KnapsackProblem/README.md)
-- Shortest Path in grid // TODO
+- [Shortest Path in grid](/DynamicProgramming/ShortestPathGrid/README.md)
 - String alignment (Smith-Waterman) // TODO
 - Word Break Problem // TODO
 - Edit Distance (Levenshtein) // TODO
