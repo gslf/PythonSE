@@ -50,12 +50,11 @@ Dynamic programming through real examples that show how to optimize recursive al
 
 - [0/1 Knapsack Problem](/DynamicProgramming/KnapsackProblem/README.md)
 - [Shortest Path in grid](/DynamicProgramming/ShortestPathGrid/README.md)
-- String alignment (Smith-Waterman) // TODO
-- Word Break Problem // TODO
+- [Word Break Problem](/DynamicProgramming/WordBreakProblem/README.md)
+- Longest Common Subsequence - LCS // TODO
 - Edit Distance (Levenshtein) // TODO
 - Matrix Chain Multiplication // TODO
 - Triangle Minimum Path Sum // TODO
-- Longest Common Subsequence - LCS // TODO
 - Interval Scheduling // TODO
 
 ### Genetic Algorithms
