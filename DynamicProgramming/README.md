@@ -5,7 +5,7 @@
 - [0/1 Knapsack Problem](/DynamicProgramming/KnapsackProblem/README.md)
 - [Shortest Path in grid](/DynamicProgramming/ShortestPathGrid/README.md)
 - [Word Break Problem](/DynamicProgramming/WordBreakProblem/README.md)
-- Longest Common Subsequence - LCS // TODO
+- [Longest Common Subsequence - LCS](/DynamicProgramming/LongestCommonSubsequence/README.md)
 - Edit Distance (Levenshtein) // TODO
 - Matrix Chain Multiplication // TODO
 - Triangle Minimum Path Sum // TODO
