@@ -52,10 +52,11 @@ Dynamic programming through real examples that show how to optimize recursive al
 - [Shortest Path in grid](/DynamicProgramming/ShortestPathGrid/README.md)
 - [Word Break Problem](/DynamicProgramming/WordBreakProblem/README.md)
 - [Longest Common Subsequence - LCS](/DynamicProgramming/LongestCommonSubsequence/README.md)
+- [Interval Scheduling](/DynamicProgramming/LongestCommonSubsequence/README.md)
 - Edit Distance (Levenshtein) // TODO
 - Matrix Chain Multiplication // TODO
 - Triangle Minimum Path Sum // TODO
-- Interval Scheduling // TODO
+
 
 ### Genetic Algorithms
 Graph theory with real-world applications in network analysis, pathfinding, and resource optimization. This section provides hands-on examples of graph traversal, shortest path algorithms, and techniques for working with complex graphs in Python.

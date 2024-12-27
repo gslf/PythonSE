@@ -6,7 +6,7 @@
 - [Shortest Path in grid](/DynamicProgramming/ShortestPathGrid/README.md)
 - [Word Break Problem](/DynamicProgramming/WordBreakProblem/README.md)
 - [Longest Common Subsequence - LCS](/DynamicProgramming/LongestCommonSubsequence/README.md)
+- [Interval Scheduling](/DynamicProgramming/LongestCommonSubsequence/README.md)
 - Edit Distance (Levenshtein) // TODO
 - Matrix Chain Multiplication // TODO
 - Triangle Minimum Path Sum // TODO
-- Interval Scheduling // TODO
