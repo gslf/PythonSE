@@ -53,9 +53,9 @@ Dynamic programming through real examples that show how to optimize recursive al
 - [Word Break Problem](/DynamicProgramming/WordBreakProblem/README.md)
 - [Longest Common Subsequence - LCS](/DynamicProgramming/LongestCommonSubsequence/README.md)
 - [Interval Scheduling](/DynamicProgramming/LongestCommonSubsequence/README.md)
-- Edit Distance (Levenshtein) // TODO
+- [Triangle Minimum Path Sum](/DynamicProgramming/TriangleMinimumPath/README.md) 
+- [Edit Distance (Levenshtein)](/DynamicProgramming/EditDistance/README.md) 
 - Matrix Chain Multiplication // TODO
-- Triangle Minimum Path Sum // TODO
 
 
 ### Genetic Algorithms

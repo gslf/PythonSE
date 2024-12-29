@@ -8,6 +8,5 @@
 - [Longest Common Subsequence - LCS](/DynamicProgramming/LongestCommonSubsequence/README.md)
 - [Interval Scheduling](/DynamicProgramming/LongestCommonSubsequence/README.md)
 - [Triangle Minimum Path Sum](/DynamicProgramming/TriangleMinimumPath/README.md) 
-- Edit Distance (Levenshtein) // TODO
+- [Edit Distance (Levenshtein)](/DynamicProgramming/EditDistance/README.md) 
 - Matrix Chain Multiplication // TODO
-- Triangle Minimum Path Sum // TODO
