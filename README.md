@@ -55,19 +55,6 @@ Dynamic programming through real examples that show how to optimize recursive al
 - [Interval Scheduling](/DynamicProgramming/LongestCommonSubsequence/README.md)
 - [Triangle Minimum Path Sum](/DynamicProgramming/TriangleMinimumPath/README.md) 
 - [Edit Distance (Levenshtein)](/DynamicProgramming/EditDistance/README.md) 
-- Matrix Chain Multiplication // TODO
-
-
-### Genetic Algorithms
-Graph theory with real-world applications in network analysis, pathfinding, and resource optimization. This section provides hands-on examples of graph traversal, shortest path algorithms, and techniques for working with complex graphs in Python.
-
-- Basic Genetic ALgorithm // TODO
-- NSGA-II // TODO
-- Differential Evolution // TODO
-- Island Model GA // TODO
-- Memetic Algorithm // TODO
-- Steady-State GA // TODO
-- Constraing-Handling GA // TODO
 
 ---
 

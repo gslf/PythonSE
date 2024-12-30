@@ -9,4 +9,3 @@
 - [Interval Scheduling](/DynamicProgramming/LongestCommonSubsequence/README.md)
 - [Triangle Minimum Path Sum](/DynamicProgramming/TriangleMinimumPath/README.md) 
 - [Edit Distance (Levenshtein)](/DynamicProgramming/EditDistance/README.md) 
-- Matrix Chain Multiplication // TODO
