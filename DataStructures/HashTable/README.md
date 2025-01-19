@@ -12,14 +12,13 @@ Understanding hash tables can be aided by visualizing a line of boxes, each with
 ## Collision Resolutions
 Hash tables can encounter collisions when multiple keys map to the same index. Collision resolution strategies help manage these conflicts, and here are three of the most common methods: Chaining, Open Addressing, and Rehashing.
 
-**Chaining** uses linked lists (or other structures) at each index to store multiple values that hash to the same slot. When a collision happens, the new value is simply added to the list at that index. This method is simple and effective but can consume extra memory due to the pointers in linked lists.
+- **Linear Probing** is like looking for a parking spot when your preferred space is taken. If spot number 5 is occupied, you simply check spot 6. If that's also taken, you look at spot 7, and so on until you find an empty space. It's straightforward but can lead to clusters of occupied spots.
+- **Quadratic probing**  is similar to linear probing, but instead of checking the next spot, you check spots that are progressively further away, helping to avoid clusters
+- **Chaining** is like having a stack of boxes at each location. When two items want the same spot, you just stack them together.
 
-**Open Addressing** finds another open slot in the hash table instead of using linked lists. It includes several techniques: Linear Probing checks slots sequentially, which is easy but can lead to clustering; Quadratic Probing jumps by increasing square values, reducing clustering but still imperfectly; and Double Hashing uses a secondary hash to determine the step size, minimizing clustering but requiring more computation.
-
-**Rehashing** is a resizing strategy where the table is enlarged and all existing keys are rehashed into the new table. This is effective for keeping collisions low as the load factor increases, but it can be computationally expensive, particularly during the rehashing process, making it more suitable when the hash table's growth can be planned.
 
 ## Implementation
-Here is a simple implementation of a HashTable:
+Here is a simple implementation of a HashTable that use linear probing as collision resolution strategy:
 
 ```python
 class HashTable:
