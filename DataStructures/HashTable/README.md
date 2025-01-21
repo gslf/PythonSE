@@ -2,7 +2,7 @@
 
 A **hash table** is a data structure that is used to store **keys/value pairs**. Each key is passed through a hash function, which returns an index in the array, and the value associated with the key is stored at that index. A **hash function** is any function that can be used to map a data set of an arbitrary size to a data set of a fixed size.
 
-The strength of hash tables comes from their ability to provide constant-time access and their effective handling of large datasets. The hash function determines the index where a particular key-value pair will reside. When keys hash to the same index (a collision), a collision resolution strategy, such as chaining or open addressing, is employed to keep the data accessible.
+The strength of hash tables comes from their ability to provide constant-time access and their effective handling of large datasets. The hash function determines the index where a particular key-value pair will reside. When keys hash to the same index (a collision), a resolution strategy is employed to keep the data accessible.
 
 ![Hash Table - visual representation](/DataStructures/HashTable/res/hash_table_visualization.png)
 
@@ -13,7 +13,7 @@ Understanding hash tables can be aided by visualizing a line of boxes, each with
 Hash tables can encounter collisions when multiple keys map to the same index. Collision resolution strategies help manage these conflicts, and here are three of the most common methods: Chaining, Open Addressing, and Rehashing.
 
 - **Linear Probing** is like looking for a parking spot when your preferred space is taken. If spot number 5 is occupied, you simply check spot 6. If that's also taken, you look at spot 7, and so on until you find an empty space. It's straightforward but can lead to clusters of occupied spots.
-- **Quadratic probing**  is similar to linear probing, but instead of checking the next spot, you check spots that are progressively further away, helping to avoid clusters
+- **Quadratic Probing**  is similar to linear probing, but instead of checking the next spot, you check spots that are progressively further away, helping to avoid clusters
 - **Chaining** is like having a stack of boxes at each location. When two items want the same spot, you just stack them together.
 
 
