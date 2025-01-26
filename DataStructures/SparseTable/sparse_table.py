@@ -55,8 +55,9 @@ class SparseTable:
             self.table[right - (2 ** j) + 1][j]
         )
         
-    
-# Example Usage
+#################    
+# Example Usage #
+#################
 
 # Sample Array
 arr = [4, 2, 7, 1, 8, 5, 3, 6]

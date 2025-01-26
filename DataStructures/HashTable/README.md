@@ -1,16 +1,15 @@
 # Hash Table in Python
 
-A **hash table** is a data structure that is used to store **keys/value pairs**. Each key is passed through a hash function, which returns an index in the array, and the value associated with the key is stored at that index. A **hash function** is any function that can be used to map a data set of an arbitrary size to a data set of a fixed size.
+**Hash tables** are data structures designed to store **key-value pairs** efficiently. Each key is processed through a hash function, which generates an index within an array, and the corresponding value is stored at that index. A hash function is essentially any function that maps a dataset of arbitrary size to a dataset of fixed size. Hash tables offer constant-time access on average and are particularly effective for managing large datasets.
 
-The strength of hash tables comes from their ability to provide constant-time access and their effective handling of large datasets. The hash function determines the index where a particular key-value pair will reside. When keys hash to the same index (a collision), a resolution strategy is employed to keep the data accessible.
 
 ![Hash Table - visual representation](/DataStructures/HashTable/res/hash_table_visualization.png)
 
 
-Understanding hash tables can be aided by visualizing a line of boxes, each with an address. When we need to insert a value, we have a machine (the hash function) that tells us in which box to place it. Each key runs through this hash function and receives a unique box number, where the value gets stored.
+Understanding hash tables becomes easier when visualized as a row of labeled boxes, each representing a specific address. To store a value, a "machine" — the hash function — determines which box the value should go into. Each key is processed by this hash function, which assigns it a unique box number where the corresponding value is stored.
 
 ## Collision Resolutions
-Hash tables can encounter collisions when multiple keys map to the same index. Collision resolution strategies help manage these conflicts, and here are three of the most common methods: Chaining, Open Addressing, and Rehashing.
+Hash tables can run into collisions when multiple keys are mapped to the same index. To handle these conflicts, various collision resolution strategies are employed. Here are three of the most common approaches:
 
 - **Linear Probing** is like looking for a parking spot when your preferred space is taken. If spot number 5 is occupied, you simply check spot 6. If that's also taken, you look at spot 7, and so on until you find an empty space. It's straightforward but can lead to clusters of occupied spots.
 - **Quadratic Probing**  is similar to linear probing, but instead of checking the next spot, you check spots that are progressively further away, helping to avoid clusters

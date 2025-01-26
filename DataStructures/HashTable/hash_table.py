@@ -77,8 +77,10 @@ class HashTable:
             if index == original_index:
                 break
         raise KeyError(f"Key '{key}' not found in HashTable")
-    
-# Example code
+
+################  
+# Example code #
+################
 hash_table = HashTable(size=5)
 hash_table.insert("apple", 10)
 print(hash_table.get("apple"))  # Output: 10

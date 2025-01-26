@@ -33,7 +33,9 @@ class CircularQueue:
         """Check if the queue is full."""
         return self.size == self.capacity
     
-# Example usage:
+##################
+# Example usage: # 
+##################
 my_queue = CircularQueue(3)
 my_queue.enqueue('A')
 my_queue.enqueue('B')

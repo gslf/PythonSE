@@ -62,7 +62,9 @@ class CircularLinkedList:
                 break
         return " -> ".join(nodes) + " -> Head"
 
-# Example usage
+#################
+# Example usage #
+#################
 if __name__ == "__main__":
     circular_linked_list = CircularLinkedList()
     circular_linked_list.append(3)

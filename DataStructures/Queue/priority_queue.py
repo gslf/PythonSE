@@ -17,7 +17,9 @@ class PriorityQueue:
         """Check if the queue is empty."""
         return len(self.queue) == 0
 
-# Example usage:
+##################
+# Example usage: # 
+##################
 my_queue = PriorityQueue()
 my_queue.enqueue('A', 2)
 my_queue.enqueue('B', 1)

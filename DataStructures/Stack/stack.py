@@ -46,7 +46,9 @@ class Stack:
         """
         return len(self._items)
 
-# Example usage
+#################
+# Example usage #
+#################
 if __name__ == "__main__":
     print("Create a new stack")
     stack = Stack()

@@ -1,6 +1,7 @@
+from collections import deque
+
 class StandardQueue:
     def __init__(self):
-        from collections import deque
         self.queue = deque()
 
     def enqueue(self, item):
@@ -23,7 +24,9 @@ class StandardQueue:
             raise IndexError("Peek from an empty queue.")
         return self.queue[0]
 
-# Example usage: 
+##################
+# Example usage: # 
+##################
 my_queue = StandardQueue()
 
 print("Enqueue A B C")

@@ -94,8 +94,9 @@ class DoublyLinkedList:
             current = current.next_node
         return " <-> ".join(nodes) + " <-> None"
 
-
-# Example usage
+#################
+# Example usage #
+#################
 if __name__ == "__main__":
     doubly_linked_list = DoublyLinkedList()
     doubly_linked_list.append(3)

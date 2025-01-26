@@ -126,7 +126,10 @@ class SinglyLinkedList:
         return " -> ".join(nodes) + " -> None"
 
 
-# Example usage
+#################
+# Example usage #
+#################
+
 if __name__ == "__main__":
     singly_linked_list = SinglyLinkedList()
     singly_linked_list.append(3)
