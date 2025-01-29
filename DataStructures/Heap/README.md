@@ -4,7 +4,7 @@ A a heap is a specialized binary tree-based data structure that satisfies the he
 - For a **Max Heap**, the value of each node is greater than or equal to the values of its children.
 - For a **Min Heap**, the value of each node is less than or equal to the values of its children.
 
-Heaps are commonly used to implement priority queues and for efficient sorting algorithms like heapsort. The heapify function is a crucial operation that ensures the heap property is maintained. It works by adjusting the positions of elements in a subtree so that the heap property holds, starting from a specific node and propagating the adjustments either upwards or downwards, depending on the context (e.g., for insertion or deletion). This operation runs in O(log n) time for a heap with 𝑛 elements, making it efficient for dynamic priority management.
+Heaps are commonly used to implement priority queues and for efficient sorting algorithms like heapsort. The **heapify** function is a fundamental operation that ensures the heap property is maintained. It works by adjusting the positions of elements in a subtree so that the heap property holds, starting from a specific node and propagating the adjustments either upwards or downwards, depending on the context (e.g., for insertion or deletion). This operation runs in O(log n) time for a heap with 𝑛 elements.
 
 ![Heap - visual representation](/DataStructures/Heap/res/heap_visualization.png)
 

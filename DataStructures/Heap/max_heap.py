@@ -78,7 +78,10 @@ class MaxHeap:
 
 
 
-# Example usage:
+##################
+# Example usage: # 
+##################
+
 max_heap = MaxHeap()
 max_heap.insert(10)
 max_heap.insert(20)

@@ -74,7 +74,10 @@ class MinHeap:
         self._heapify_down(0)
         return min_value
     
-# Example usage:
+##################
+# Example usage: # 
+##################
+
 min_heap = MinHeap()
 min_heap.insert(10)
 min_heap.insert(20)

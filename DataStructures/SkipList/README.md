@@ -93,8 +93,9 @@ class SkipList:
             while self.level > 0 and self.head.forward[self.level] is None:
                 self.level -= 1
                 
-########################################
-# Example Usage
+##################
+# Example usage: # 
+##################
 
 skiplist = SkipList(max_level=4, p=0.5)
 for num in [1, 3, 7, 8, 10]:

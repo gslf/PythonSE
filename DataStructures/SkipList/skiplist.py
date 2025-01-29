@@ -17,7 +17,8 @@ class SkipList:
     def random_level(self):
         """Generates a random level for a new node."""
         level = 0
-        while random.random() < self.p and level < self.max_level:
+        while (random.random() < self.p 
+               and level < self.max_level):
             level += 1
         return level
 
@@ -76,8 +77,9 @@ class SkipList:
             while self.level > 0 and self.head.forward[self.level] is None:
                 self.level -= 1
 
-########################################
-# Example Usage
+##################
+# Example usage: # 
+##################
 
 skiplist = SkipList(max_level=4, p=0.5)
 for num in [1, 3, 7, 8, 10]:

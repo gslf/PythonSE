@@ -13,7 +13,7 @@ A Bloom filter is a space-efficient probabilistic data structure designed to rap
 - Cannot remove elements (removal could create false negatives)
 
 ## How it works
-You're right. Let me provide a practical, step-by-step visual explanation of how a Bloom filter works.
+Let me provide a practical, step-by-step visual explanation of how a Bloom filter works.
 
 Visual Guide to Bloom Filters
 Let's track exactly what happens when we create a Bloom filter with:
@@ -181,7 +181,10 @@ class BloomFilter:
                 return False
         return True
 
-# Esempio di utilizzo
+
+##################
+# Example usage: # 
+##################
 
 bloom = BloomFilter(1000, 0.01)
 

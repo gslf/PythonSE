@@ -25,36 +25,6 @@ class BloomFilter:
         """Calculate optimal number of hash functions."""
         return int((m / n) * math.log(2))
     
-    def _custom_hash(self, element: Any, seed: int) -> int:
-        """
-        Custom hash function to replace mmh3.
-        Uses a simple but effective hashing algorithm.
-        
-        Args:
-            element: Element to hash
-            seed: Seed for generating different hash values
-        
-        Returns:
-            int: Hash value
-        """
-        # Convert element to string and hash it with a custom method
-        element_str = str(element)
-        
-        # Base hash using a simple polynomial rolling hash
-        hash_value = 0
-        for char in element_str:
-            # Use seed to modify the hash generation
-            hash_value = (hash_value * (seed + 31) + ord(char)) & 0xFFFFFFFF
-        
-        # Add some bit mixing to improve distribution
-        hash_value ^= hash_value >> 16
-        hash_value *= 0x85ebca6b
-        hash_value ^= hash_value >> 13
-        hash_value *= 0xc2b2ae35
-        hash_value ^= hash_value >> 16
-        
-        return hash_value
-    
     def add(self, element: Any) -> None:
         """
         Add an element to the Bloom filter.
@@ -63,7 +33,7 @@ class BloomFilter:
             element: Element to be added
         """
         for seed in range(self.hash_count):
-            index = self._custom_hash(element, seed) % self.size
+            index = (hash((element, seed)) % self.size)
             self.bit_array[index] = 1
             
     def contains(self, element: Any) -> bool:
@@ -77,12 +47,14 @@ class BloomFilter:
             bool: True if element might be present, False if definitely absent
         """
         for seed in range(self.hash_count):
-            index = self._custom_hash(element, seed) % self.size
+            index = (hash((element, seed)) % self.size) 
             if self.bit_array[index] == 0:
                 return False
         return True
 
-# Esempio di utilizzo
+##################
+# Example usage: # 
+##################
 
 bloom = BloomFilter(1000, 0.01)
 
